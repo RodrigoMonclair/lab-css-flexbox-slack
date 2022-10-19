@@ -381,8 +381,105 @@ hr{
     margin-right: 10px;
 }
 
+
+
 /* Iteração 2 */
 @media all and (min-width: 768px) and (max-width: 1024px) {
+    * {
+        max-width : 1024px; 
+        }
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            
+        } 
+
+    .signup{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-image: url('../images/background-singup.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+    
+
+    .texts{
+    text-align: start;
+    text-align: start;
+    margin-left: 15px;
+    }
+
+    .texts span{
+    color: darkgoldenrod;
+    }
+    .texts p {
+    font-size: 2rem;
+    color: white;
+    }
+    .img-slack{
+        display: flex;
+        width: 1000px;
+        padding: 10px;
+        align-items: center;
+        background-color: #540B51;
+    }
+    .img-slack img{
+        position: relative;
+        right: -200px;
+        height: 300px;
+    }
+
+    .btn-email{
+        width: 100%;
+        height: 70px;
+        font-size: 1.3rem;
+    }
+    .btn-google{
+        width: 100%;
+        height: 70px;
+        font-size: 1.3rem;
+        
+    }
+    .btn-sgnUp > button > img{
+        width: 40px;
+        height: 40px;
+}
+
+.section{
+    justify-content: center;
+}
+
+.first img{
+    width: 140px;
+}
+
+.first-text{
+    padding: 20px;
+}
+
+.first p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn-fifth{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-meet{
+    width:40%;
+}
+.btn-talk{
+    width: 40%;
+}
+.fifth ul{
+    display: flex;
+    justify-content: space-around;
+}
 }
 
 /* Iteração 3 */
@@ -391,4 +488,5 @@ hr{
 
 /* Iteração 4 */
 @media all and (min-width: 1441px) {
+
 }
