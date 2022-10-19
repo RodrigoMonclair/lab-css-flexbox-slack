@@ -18,7 +18,7 @@
 
 <body>
   <nav>
-    <div>
+    <div class="logoMenu">
       <img src="./images/slack-logo.png" alt="Slack logo" />
 
       <ul>
@@ -37,12 +37,12 @@
       </ul>
     </div>
 
-    <div>
-      <button>
+    <div class="btns-nav">
+      <button class="btn-search">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button class="btn-menu">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
@@ -57,16 +57,19 @@
     </div>
   </nav>
 
-  <header>
-    <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+  <header class="header">
+    <div class="signup">
+      <div class="texts">
+        <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+        <p><span>Slack is free to try</span> for as long as you'd like.</p>
+      </div>
+      
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="btn-sgnUp">
+        <button class="btn-email">Sign up with email</button>
 
-        <button>
+        <button class="btn-google">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -74,16 +77,19 @@
 
     </div>
 
-    <div>
+    <div class="img-slack">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
-      <p>Trusted by companies all over the world</p>
+    <section class="section first">
+      <div class="first-text">
+        <p>Trusted by companies all over the world</p>
+      </div>
+      
 
-      <div>
+      <div class="first-images">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -94,7 +100,7 @@
 
     </section>
 
-    <section>
+    <section class="section second">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
@@ -108,12 +114,12 @@
         </p>
 
         <a href="#">
-          <span>Learn more about channels</span>
+          <span>Learn more about channels ➡</span>
         </a>
       </div>
     </section>
 
-    <section>
+    <section class="section third">
       <div>
         <h2>Choose how you want to work</h2>
         <p>
@@ -123,7 +129,7 @@
         </p>
 
         <a href="#">
-          <span>Learn more about flexible communication</span>
+          <span>Learn more about flexible communication ➡</span>
         </a>
       </div>
 
@@ -132,7 +138,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="section fourth">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
@@ -145,26 +151,27 @@
         </p>
 
         <a href="#">
-          <span>Learn more about the Slack platform</span>
+          <span>Learn more about the Slack platform ➡</span>
         </a>
       </div>
     </section>
 
 
-    <section>
-      <h3>Teams large and small rely on Slack</h3>
+    <section class="fifth">
+      <div class="fifth-tittle"><h3>Teams large and small rely on Slack</h3></div>
+      
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
       <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+        <button class="btn-meet">Meet Slack for enterprise</button>
+        <button class="btn-talk">Talk to sales</button>
       </div>
 
       <ul>
         <li>
           <p><span>85%</span></p>
           <p>
-            of users say Slack has improved communication
+            of users say Slack has <br> improved communication
             <sup>*</sup>
           </p>
         </li>
@@ -172,7 +179,7 @@
         <li>
           <p><span>86%</span></p>
           <p>
-            feel their ability to work remotely has improved has improved
+            feel their ability to work <br> remotely has improved has improved
             <sup>*</sup>
           </p>
         </li>
@@ -180,87 +187,96 @@
         <li>
           <p><span>88%</span></p>
           <p>
-            feel more connected to their teams*
+            feel more connected to <br> their teams*
             <sup>*</sup>
           </p>
         </li>
       </ul>
     </section>
 
-    <section>
-      <h3>Welcome to your new digital HQ</h3>
+    <section class="welcome">
+      <h3>Welcome to your new <br> digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="btn-sales">Talk to sales</button>
+      <button class="btn-free">Try for free</button>
     </section>
 
   </main>
 
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
+    <div class="footer-list">
+      <div>
+        <ul>
+          <li class="li-tittle">WHY SLACK?</li>
+          <li>Slack vs. Email</li>
+          <li>Channels</li>
+          <li>Engagement</li>
+          <li>Scale</li>
+          <li>Watch the Demo</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="li-tittle">PRODUCT</li>
+          <li>Features</li>
+          <li>Integrations</li>
+          <li>Enterprise</li>
+          <li>Solutions</li>
+          <li>Releases</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="li-tittle">PRICING</li>
+          <li>Plans</li>
+          <li>Paid vs. Free</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="li-tittle">COMPANY</li>
+          <li>About Us</li>
+          <li>Leadership</li>
+          <li>Investor Relations</li>
+          <li>News</li>
+          <li>Media Kit</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="final-list">
       <ul>
-        <li>WHY SLACK?</li>
-        <li>Slack vs. Email</li>
-        <li>Channels</li>
-        <li>Engagement</li>
-        <li>Scale</li>
-        <li>Watch the Demo</li>
-      </ul>
-
-      <ul>
-        <li>PRODUCT</li>
-        <li>Features</li>
-        <li>Integrations</li>
-        <li>Enterprise</li>
-        <li>Solutions</li>
-        <li>Releases</li>
-      </ul>
-
-      <ul>
-        <li>PRICING</li>
-        <li>Plans</li>
-        <li>Paid vs. Free</li>
-      </ul>
-
-      <ul>
-        <li>COMPANY</li>
-        <li>About Us</li>
-        <li>Leadership</li>
-        <li>Investor Relations</li>
-        <li>News</li>
-        <li>Media Kit</li>
-        <li>Careers</li>
+        <li>Status</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Cookie Preferences</li>
+        <li>Contact Us</li>
+        <li><span><img src="./images/icon-region.png" alt=""></span> Change Region</li>
+        <li> <img src="./images/icon-download.png" alt=""> <span class="down">Download Slack</span> </li>
       </ul>
     </div>
+    
 
-
-    <ul>
-      <li>Status</li>
-      <li>Privacy</li>
-      <li>Terms</li>
-      <li>Cookie Preferences</li>
-      <li>Contact Us</li>
-      <li>Change Region</li>
-      <li>Download Slack</li>
-    </ul>
-
-    <hr>
-
-    <ul>
-      <li>
-        <i class="fab fa-twitter"></i>
-      </li>
-      <li>
-        <i class="fab fa-facebook"></i>
-      </li>
-      <li>
-        <i class="fab fa-youtube"></i>
-      </li>
-      <li>
-        <i class="fab fa-linkedin"></i>
-      </li>
-    </ul>
+    
+    <div class="social-medias">
+      <ul>
+        <li>
+          <i class="fab fa-twitter"></i>
+        </li>
+        <li>
+          <i class="fab fa-facebook"></i>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i>
+        </li>
+      </ul>
+    </div>
+    
 
     <div>
       <small>
